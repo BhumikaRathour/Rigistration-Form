@@ -92,15 +92,6 @@
                 body: JSON.stringify({ username, email, password }), 
             });
 
-            // Handle server response
-            // const data = await response.json();
-            // if (response.ok) {
-            //     window.location.href = '/success'; 
-            // } else {
-            //     const errorMessage = data.message || 'An error occurred during registration.';
-            //     document.getElementById('error-message').innerText = errorMessage;
-            //     document.getElementById('error-message').style.display = 'block'; 
-            // }
             
             const data = await response.json();
             if (response.ok) {
